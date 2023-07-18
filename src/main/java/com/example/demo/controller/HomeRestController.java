@@ -29,8 +29,6 @@ public class HomeRestController {
     @PostMapping("/findAlllis")
     public List<Home> finAllHome(){
 
-        System.out.printf("deneme");
-
         return homeService.homelist();
 
     }
