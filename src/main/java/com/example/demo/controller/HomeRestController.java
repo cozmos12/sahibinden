@@ -28,10 +28,12 @@ public class HomeRestController {
 
     @PostMapping("/findAlllis")
     public List<Home> finAllHome(){
-        System.out.printf("");
-        System.out.printf("");
-        System.out.printf("");
-        System.out.printf("");
+
+        System.out.printf("m");
+        System.out.printf("m");
+        System.out.printf("m");
+        System.out.printf("m");
+        System.out.printf("m");
 
         return homeService.homelist();
 
